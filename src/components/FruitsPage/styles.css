@@ -1,7 +1,35 @@
+.input-container {
+    padding: 50px;
+}
+
+.input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 5px 20px;
+    background-color: #c704c7;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+.card-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .card {
     width: 200px;
     height: 100px;
     border: 1px solid;
     padding: 10px;
     text-align: center;
+    background-color: #FFFF;
 }
+

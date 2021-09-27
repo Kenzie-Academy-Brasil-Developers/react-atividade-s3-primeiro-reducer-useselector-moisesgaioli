@@ -3,10 +3,11 @@ import FruitsPage from './components/FruitsPage';
 
 function App() {
   return (
-      <div className="container">
+    <main className="main-container">
+      <div className="list">
         <FruitsPage />
-
       </div>
+    </main>
   );
 }
 
